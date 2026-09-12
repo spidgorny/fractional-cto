@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fractional CTO | 20+ Years Building High-Impact Tech</title>
+  <meta
+    name="description"
+    content="Fractional CTO services for founders who need senior technology leadership, product strategy, execution, and AI leverage."
+  >
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #08111f;
+      --panel: rgba(10, 18, 33, 0.75);
+      --panel-border: rgba(148, 163, 184, 0.22);
+      --text: #e2e8f0;
+      --muted: #94a3b8;
+      --primary: #7c3aed;
+      --primary-strong: #8b5cf6;
+      --accent: #22d3ee;
+      --success: #34d399;
+      --shadow: 0 24px 80px rgba(3, 7, 18, 0.45);
+      --max-width: 1120px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(124, 58, 237, 0.25), transparent 32%),
+        radial-gradient(circle at top right, rgba(34, 211, 238, 0.18), transparent 28%),
+        linear-gradient(180deg, #08111f 0%, #0b1326 50%, #070d18 100%);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .container {
+      width: min(calc(100% - 2rem), var(--max-width));
+      margin: 0 auto;
+    }
+
+    .hero {
+      padding: 2rem 0 4rem;
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      padding: 1rem 0 2rem;
+    }
+
+    .brand {
+      font-size: 1.05rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.4fr) minmax(300px, 0.9fr);
+      gap: 2rem;
+      align-items: center;
+    }
+
+    .eyebrow,
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      border: 1px solid var(--panel-border);
+      background: rgba(15, 23, 42, 0.72);
+      border-radius: 999px;
+      padding: 0.45rem 0.9rem;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    h1, h2, h3, p {
+      margin: 0;
+    }
+
+    h1 {
+      margin-top: 1rem;
+      font-size: clamp(2.7rem, 7vw, 5.5rem);
+      line-height: 0.98;
+      letter-spacing: -0.05em;
+    }
+
+    .hero-copy p {
+      margin-top: 1.5rem;
+      max-width: 45rem;
+      font-size: 1.12rem;
+      color: #cbd5e1;
+    }
+
+    .cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 3.25rem;
+      padding: 0.85rem 1.35rem;
+      border-radius: 999px;
+      font-weight: 700;
+      transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+    }
+
+    .button:hover {
+      transform: translateY(-1px);
+    }
+
+    .button-primary {
+      background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+      color: white;
+      box-shadow: 0 18px 40px rgba(34, 211, 238, 0.18);
+    }
+
+    .button-secondary {
+      border: 1px solid var(--panel-border);
+      background: rgba(15, 23, 42, 0.6);
+      color: var(--text);
+    }
+
+    .hero-stats {
+      display: grid;
+      gap: 1rem;
+    }
+
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--panel-border);
+      border-radius: 24px;
+      padding: 1.5rem;
+      backdrop-filter: blur(14px);
+      box-shadow: var(--shadow);
+    }
+
+    .stat-value {
+      font-size: 2.8rem;
+      font-weight: 800;
+      line-height: 1;
+      letter-spacing: -0.04em;
+    }
+
+    .stat-label {
+      margin-top: 0.55rem;
+      color: var(--muted);
+      font-size: 0.98rem;
+    }
+
+    .section {
+      padding: 2rem 0 4rem;
+    }
+
+    .section-header {
+      display: grid;
+      gap: 0.9rem;
+      margin-bottom: 1.75rem;
+    }
+
+    .section-header h2 {
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1.05;
+      letter-spacing: -0.04em;
+    }
+
+    .section-header p,
+    .muted {
+      color: var(--muted);
+    }
+
+    .grid-3,
+    .grid-2 {
+      display: grid;
+      gap: 1.25rem;
+    }
+
+    .grid-3 {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .grid-2 {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .service-card h3,
+    .timeline-card h3,
+    .result-card h3 {
+      font-size: 1.15rem;
+      margin-bottom: 0.65rem;
+    }
+
+    ul {
+      padding-left: 1.1rem;
+      margin: 0;
+      color: #cbd5e1;
+    }
+
+    li + li {
+      margin-top: 0.4rem;
+    }
+
+    .timeline-card {
+      min-height: 100%;
+    }
+
+    .timeline-card .pill {
+      margin-bottom: 0.85rem;
+      color: var(--success);
+    }
+
+    .cta-banner {
+      display: grid;
+      gap: 1rem;
+      align-items: center;
+      grid-template-columns: minmax(0, 1.5fr) auto;
+    }
+
+    .cta-banner p {
+      color: #cbd5e1;
+    }
+
+    footer {
+      padding: 0 0 3rem;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 920px) {
+      .hero-grid,
+      .grid-3,
+      .grid-2,
+      .cta-banner {
+        grid-template-columns: 1fr;
+      }
+
+      .hero {
+        padding-bottom: 2.5rem;
+      }
+
+      h1 {
+        font-size: clamp(2.4rem, 12vw, 4.2rem);
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <div class="nav">
+        <a class="brand" href="#">Fractional CTO</a>
+        <a class="button button-secondary" href="https://calendly.com/spidgorny" target="_blank" rel="noreferrer">Book on Calendly</a>
+      </div>
+
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">Senior technology leadership for founders who need traction fast</span>
+          <h1>Build with a CTO who has delivered for 20+ years.</h1>
+          <p>
+            Get executive-level product and engineering leadership without committing to a full-time hire.
+            I help startups turn vision into roadmap, roadmap into execution, and execution into growth.
+          </p>
+          <p>
+            Experience spans early-stage startups, scale-up execution, and hands-on delivery — including work with
+            <strong>SkarAudio.com</strong> and multiple high-growth ventures that needed decisive technical leadership.
+          </p>
+          <div class="cta-row">
+            <a class="button button-primary" href="https://calendly.com/spidgorny" target="_blank" rel="noreferrer">Schedule a strategy call</a>
+            <a class="button button-secondary" href="#services">Explore services</a>
+          </div>
+        </div>
+
+        <div class="hero-stats">
+          <div class="card">
+            <div class="stat-value">20+</div>
+            <div class="stat-label">Years shipping software, leading engineering, and guiding product decisions.</div>
+          </div>
+          <div class="card">
+            <div class="stat-value">0→1 &amp; scale</div>
+            <div class="stat-label">From MVP architecture to team workflows, quality, delivery, and modernization.</div>
+          </div>
+          <div class="card">
+            <div class="stat-value">Founder-ready</div>
+            <div class="stat-label">Ideal for companies that need clarity, velocity, and senior execution right now.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-header">
+          <span class="pill">What you get</span>
+          <h2>Fractional CTO support designed to unblock growth.</h2>
+          <p>Practical leadership that aligns business goals, product decisions, engineering systems, and AI leverage.</p>
+        </div>
+        <div class="grid-3">
+          <article class="card service-card">
+            <h3>Technology strategy</h3>
+            <ul>
+              <li>Architecture and platform direction</li>
+              <li>Roadmap prioritization tied to business outcomes</li>
+              <li>Vendor, tooling, and AI adoption decisions</li>
+            </ul>
+          </article>
+          <article class="card service-card">
+            <h3>Execution leadership</h3>
+            <ul>
+              <li>Engineering process and delivery rhythm</li>
+              <li>Interim team leadership and senior mentoring</li>
+              <li>Faster shipping with stronger technical accountability</li>
+            </ul>
+          </article>
+          <article class="card service-card">
+            <h3>Founder partnership</h3>
+            <ul>
+              <li>Translate business needs into technical plans</li>
+              <li>Support fundraising, due diligence, and hiring</li>
+              <li>Reduce risk while preserving speed</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="pill">Experience</span>
+          <h2>Built across startups, commerce, and digital products.</h2>
+          <p>Deep technical range, business fluency, and a bias for shipping work that moves the company forward.</p>
+        </div>
+        <div class="grid-2">
+          <article class="card timeline-card">
+            <span class="pill">20+ years</span>
+            <h3>Hands-on across every stage of growth</h3>
+            <p class="muted">From early product definition and architecture to scaling delivery and modernizing teams under pressure.</p>
+          </article>
+          <article class="card timeline-card">
+            <span class="pill">SkarAudio.com</span>
+            <h3>High-performance commerce and operations</h3>
+            <p class="muted">Delivered where reliability, speed, customer experience, and revenue-impacting systems all matter.</p>
+          </article>
+          <article class="card timeline-card">
+            <span class="pill">Startups</span>
+            <h3>Operator mindset for fast-moving teams</h3>
+            <p class="muted">Helped startup teams make better technical bets, ship faster, and stay focused on the highest-leverage work.</p>
+          </article>
+          <article class="card timeline-card">
+            <span class="pill">Fractional model</span>
+            <h3>Senior leadership without full-time overhead</h3>
+            <p class="muted">A flexible way to add CTO-level judgment, execution, and founder support exactly when it is needed.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="pill">Why founders hire me</span>
+          <h2>Because clarity and momentum are worth more than meetings.</h2>
+        </div>
+        <div class="grid-3">
+          <article class="card result-card">
+            <h3>Fast diagnosis</h3>
+            <p class="muted">Quickly identify what is slowing delivery, inflating cost, or increasing technical risk.</p>
+          </article>
+          <article class="card result-card">
+            <h3>Credible execution</h3>
+            <p class="muted">Hands-on enough to guide implementation, senior enough to shape strategy and align stakeholders.</p>
+          </article>
+          <article class="card result-card">
+            <h3>AI-aware leverage</h3>
+            <p class="muted">Use modern tooling and automation thoughtfully to increase output without compromising quality.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="card cta-banner">
+          <div>
+            <h2>Ready to add senior technical leadership?</h2>
+            <p>Book a Calendly call to discuss your roadmap, engineering bottlenecks, platform decisions, or AI strategy.</p>
+          </div>
+          <a class="button button-primary" href="https://calendly.com/spidgorny" target="_blank" rel="noreferrer">Book your call</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">Fractional CTO services for founders who want speed, judgment, and execution.</div>
+  </footer>
+</body>
+</html>
