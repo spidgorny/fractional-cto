@@ -20,6 +20,12 @@ Small Vite + React landing page for fractional CTO services.
 - Global styles in `src/index.css` and `src/App.css`
 - No tests configured
 
+## Deployment
+
+- Hosted on GitHub Pages via `.github/workflows/deploy.yml`.
+- Vite `base` is set to `/fractional-cto/` for project-page hosting.
+- Live URL: `https://spidgorny.github.io/fractional-cto/`
+
 ## Conventions
 
 - Components are functional and default-exported from `src/components/*.jsx`.
