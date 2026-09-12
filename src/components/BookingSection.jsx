@@ -14,8 +14,10 @@ function BookingSection() {
           <a
             className="button button-primary"
             href="https://calendly.com/spidgorny"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            Book your Calendly call
+            Book your Calendly call ↗
           </a>
         </div>
       </div>
