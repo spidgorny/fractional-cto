@@ -17,6 +17,10 @@ function Hero() {
   return (
     <header className="hero">
       <div className="container">
+        <a className="skip-link" href="#main-content">
+          Skip to main content
+        </a>
+
         <div className="nav">
           <div className="brand">Fractional CTO</div>
         </div>
