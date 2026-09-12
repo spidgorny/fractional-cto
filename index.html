@@ -41,7 +41,6 @@
 
     a {
       color: inherit;
-      text-decoration: none;
     }
 
     .container {
@@ -122,10 +121,17 @@
       border-radius: 999px;
       font-weight: 700;
       transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+      text-decoration: none;
     }
 
     .button:hover {
       transform: translateY(-1px);
+    }
+
+    .button:focus-visible,
+    .brand:focus-visible {
+      outline: 3px solid rgba(34, 211, 238, 0.9);
+      outline-offset: 4px;
     }
 
     .button-primary {
@@ -138,6 +144,10 @@
       border: 1px solid var(--panel-border);
       background: rgba(15, 23, 42, 0.6);
       color: var(--text);
+    }
+
+    .brand {
+      text-decoration: none;
     }
 
     .hero-stats {
@@ -245,6 +255,18 @@
       font-size: 0.95rem;
     }
 
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+
     @media (max-width: 920px) {
       .hero-grid,
       .grid-3,
@@ -268,7 +290,7 @@
     <div class="container">
       <div class="nav">
         <a class="brand" href="#top">Fractional CTO</a>
-        <a class="button button-secondary" href="https://calendly.com/spidgorny">Book on Calendly</a>
+        <a class="button button-secondary" href="https://calendly.com/spidgorny" target="_blank" rel="noopener noreferrer">Book on Calendly <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
       </div>
 
       <div class="hero-grid">
@@ -284,7 +306,7 @@
             <strong>SkarAudio.com</strong> and multiple high-growth ventures that needed decisive technical leadership.
           </p>
           <div class="cta-row">
-            <a class="button button-primary" href="https://calendly.com/spidgorny">Schedule a strategy call</a>
+            <a class="button button-primary" href="https://calendly.com/spidgorny" target="_blank" rel="noopener noreferrer">Schedule a strategy call <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
             <a class="button button-secondary" href="#services">Explore services</a>
           </div>
         </div>
@@ -406,7 +428,7 @@
             <h2>Ready to add senior technical leadership?</h2>
             <p>Book a Calendly call to discuss your roadmap, engineering bottlenecks, platform decisions, or AI strategy.</p>
           </div>
-          <a class="button button-primary" href="https://calendly.com/spidgorny">Book your call</a>
+          <a class="button button-primary" href="https://calendly.com/spidgorny" target="_blank" rel="noopener noreferrer">Book your call <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
         </div>
       </div>
     </section>
