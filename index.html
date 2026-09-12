@@ -65,13 +65,6 @@
       font-weight: 700;
       letter-spacing: 0.04em;
       text-transform: uppercase;
-      text-decoration: none;
-      transition: opacity 0.2s ease;
-    }
-
-    .brand:hover,
-    .brand:active {
-      opacity: 0.82;
     }
 
     .hero-grid {
@@ -135,8 +128,7 @@
       transform: translateY(-1px);
     }
 
-    .button:focus-visible,
-    .brand:focus-visible {
+    .button:focus-visible {
       outline: 3px solid rgba(34, 211, 238, 0.9);
       outline-offset: 4px;
     }
@@ -292,7 +284,7 @@
   <header class="hero">
     <div class="container">
       <div class="nav">
-        <a class="brand" href="#top">Fractional CTO</a>
+        <div class="brand">Fractional CTO</div>
         <a class="button button-secondary" href="#book-call">Go to booking section</a>
       </div>
 
