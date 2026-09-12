@@ -10,9 +10,9 @@ const results = [
       'Hands-on enough to ship React, Next.js, PHP, Python, and Node.js code; senior enough to lead teams and align stakeholders.',
   },
   {
-    title: 'AI-aware leverage',
+    title: 'Pragmatic leverage',
     description:
-      'Use modern tooling, machine learning, and automation thoughtfully to increase output without compromising quality.',
+      'Use the right tooling, automation, and machine learning where it matters without adding complexity.',
   },
 ]
 

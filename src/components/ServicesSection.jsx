@@ -4,7 +4,7 @@ const services = [
     items: [
       'Architecture and platform direction (React, Next.js, PHP, Python, Node.js)',
       'Roadmap prioritization tied to revenue and operations outcomes',
-      'Vendor, cloud (AWS), and AI/ML adoption decisions',
+      'Vendor, cloud (AWS), and machine-learning adoption decisions',
     ],
   },
   {
@@ -34,7 +34,7 @@ function ServicesSection() {
           <h2>Fractional CTO support designed to unblock growth.</h2>
           <p>
             Practical leadership that aligns business goals, product decisions, engineering systems,
-            and AI leverage — backed by 20+ years of hands-on architecture, delivery, and team
+            and automation — backed by 20+ years of hands-on architecture, delivery, and team
             leadership.
           </p>
         </div>
