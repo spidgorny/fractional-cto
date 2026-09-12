@@ -145,6 +145,10 @@
       color: var(--text);
     }
 
+    .button-external::after {
+      content: " ↗";
+    }
+
     .hero-stats {
       display: grid;
       gap: 1rem;
@@ -417,7 +421,7 @@
             <h2 id="booking-heading">Book a Calendly strategy call.</h2>
             <p>Discuss your roadmap, engineering bottlenecks, platform decisions, or AI strategy in a focused intro session.</p>
           </div>
-          <a class="button button-primary" href="https://calendly.com/spidgorny" target="_blank" rel="noopener noreferrer">Book your Calendly call (opens in a new tab)</a>
+          <a class="button button-primary button-external" href="https://calendly.com/spidgorny" target="_blank" rel="noopener noreferrer" aria-label="Book your Calendly call (opens in a new tab)">Book your Calendly call</a>
         </div>
       </div>
     </section>
