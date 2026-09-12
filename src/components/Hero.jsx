@@ -1,15 +1,15 @@
 const stats = [
   {
     value: '20+',
-    label: 'Years shipping software, leading engineering, and guiding product decisions.',
+    label: 'Years shipping software, leading engineering, and guiding product decisions across startups, e-commerce, and enterprise.',
   },
   {
-    value: '0→1 & scale',
-    label: 'From MVP architecture to team workflows, quality, delivery, and modernization.',
+    value: 'CTO × 2',
+    label: 'Led as CTO for Skar Audio and multiple startups, plus 20+ internal applications at Nintendo of Europe.',
   },
   {
-    value: 'Founder-ready',
-    label: 'Ideal for companies that need clarity, velocity, and senior execution right now.',
+    value: 'Full stack',
+    label: 'Deep hands-on work in React, Next.js, PHP, Python, Node.js, SQL/NoSQL, AWS, and AI/ML.',
   },
 ]
 
@@ -37,9 +37,10 @@ function Hero() {
               growth.
             </p>
             <p>
-              Experience spans early-stage startups, scale-up execution, and hands-on delivery —
-              including consulting and software leadership work for <strong>SkarAudio.com</strong>{' '}
-              and multiple high-growth ventures that needed decisive technical leadership.
+              Track record includes CTO roles at <strong>SkarAudio.com</strong> and multiple
+              startups, plus senior leadership for <strong>20+ internal applications at Nintendo of
+              Europe</strong> with teams up to 6 and budget responsibility. Fluent in React, Next.js,
+              PHP, Python, Node.js, SQL/NoSQL, AWS, and AI/ML.
             </p>
             <div className="cta-row">
               <a className="button button-primary" href="#book-call">

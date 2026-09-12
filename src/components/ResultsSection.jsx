@@ -2,17 +2,17 @@ const results = [
   {
     title: 'Fast diagnosis',
     description:
-      'Quickly identify what is slowing delivery, inflating cost, or increasing technical risk.',
+      'Quickly identify what is slowing delivery, inflating cost, or increasing technical risk across the full stack.',
   },
   {
     title: 'Credible execution',
     description:
-      'Hands-on enough to guide implementation, senior enough to shape strategy and align stakeholders.',
+      'Hands-on enough to ship React, Next.js, PHP, Python, and Node.js code; senior enough to lead teams and align stakeholders.',
   },
   {
     title: 'AI-aware leverage',
     description:
-      'Use modern tooling and automation thoughtfully to increase output without compromising quality.',
+      'Use modern tooling, machine learning, and automation thoughtfully to increase output without compromising quality.',
   },
 ]
 

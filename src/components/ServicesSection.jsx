@@ -2,17 +2,17 @@ const services = [
   {
     title: 'Technology strategy',
     items: [
-      'Architecture and platform direction',
-      'Roadmap prioritization tied to business outcomes',
-      'Vendor, tooling, and AI adoption decisions',
+      'Architecture and platform direction (React, Next.js, PHP, Python, Node.js)',
+      'Roadmap prioritization tied to revenue and operations outcomes',
+      'Vendor, cloud (AWS), and AI/ML adoption decisions',
     ],
   },
   {
     title: 'Execution leadership',
     items: [
-      'Engineering process and delivery rhythm',
+      'Hands-on engineering process and delivery rhythm',
       'Interim team leadership and senior mentoring',
-      'Faster shipping with stronger technical accountability',
+      'Legacy modernization, DevOps, and secure authentication systems',
     ],
   },
   {
@@ -33,8 +33,9 @@ function ServicesSection() {
           <span className="pill">What you get</span>
           <h2>Fractional CTO support designed to unblock growth.</h2>
           <p>
-            Practical leadership that aligns business goals, product decisions, engineering
-            systems, and AI leverage.
+            Practical leadership that aligns business goals, product decisions, engineering systems,
+            and AI leverage — backed by 20+ years of hands-on architecture, delivery, and team
+            leadership.
           </p>
         </div>
 

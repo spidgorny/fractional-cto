@@ -3,25 +3,25 @@ const experienceItems = [
     pill: '20+ years',
     title: 'Hands-on across every stage of growth',
     description:
-      'From early product definition and architecture to scaling delivery and modernizing teams under pressure.',
+      'From early product definition and architecture to scaling delivery, team leadership, and modernizing systems under pressure.',
   },
   {
     pill: 'SkarAudio.com',
-    title: 'High-performance commerce and operations',
+    title: 'CTO for e-commerce and operations',
     description:
-      'Consulting and software leadership engagement focused on reliability, speed, customer experience, and revenue-impacting systems.',
+      'Built a Next.js/React shop, integrated dozens of REST and GraphQL APIs, and built backend systems for orders, warehouse, supply, and QuickBooks automation.',
   },
   {
-    pill: 'Startups',
+    pill: 'Nintendo of Europe',
+    title: 'Senior leader for 20+ enterprise applications',
+    description:
+      'Managed teams up to 6, owned budgets, and delivered knowledge bases, booking systems, repair workflows, and inventory platforms used across Europe.',
+  },
+  {
+    pill: 'Startups & side projects',
     title: 'Operator mindset for fast-moving teams',
     description:
-      'Helped startup teams make better technical bets, ship faster, and stay focused on the highest-leverage work.',
-  },
-  {
-    pill: 'Fractional model',
-    title: 'Senior leadership without full-time overhead',
-    description:
-      'A flexible way to add CTO-level judgment, execution, and founder support exactly when it is needed.',
+      'Hands-on founder/CTO experience, 5★ CodeMentor mentor, crypto-bot, ML/AI prototypes, and mobile apps built with Flutter.',
   },
 ]
 
@@ -31,10 +31,10 @@ function ExperienceSection() {
       <div className="container">
         <div className="section-header">
           <span className="pill">Experience</span>
-          <h2>Built across startups, commerce, and digital products.</h2>
+          <h2>Built across startups, commerce, and enterprise.</h2>
           <p>
             Deep technical range, business fluency, and a bias for shipping work that moves the
-            company forward.
+            company forward — from MVPs to platforms used by thousands.
           </p>
         </div>
 
