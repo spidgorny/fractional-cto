@@ -255,11 +255,16 @@
       font-size: 0.95rem;
     }
 
-    .tab-note {
-      margin-left: 0.45rem;
-      font-size: 0.9rem;
-      font-weight: 600;
-      opacity: 0.92;
+    .cta-actions {
+      display: grid;
+      gap: 0.65rem;
+      justify-items: start;
+    }
+
+    .cta-note {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.92rem;
     }
 
     @media (max-width: 920px) {
@@ -425,7 +430,10 @@
             <h2 id="booking-heading">Book a Calendly strategy call.</h2>
             <p>Discuss your roadmap, engineering bottlenecks, platform decisions, or AI strategy in a focused intro session.</p>
           </div>
-          <a class="button button-primary" href="https://calendly.com/spidgorny" target="_blank" rel="noopener noreferrer" aria-label="Book your Calendly call, opens in a new tab">Book your Calendly call <span class="tab-note" aria-hidden="true">New tab</span></a>
+          <div class="cta-actions">
+            <a class="button button-primary" href="https://calendly.com/spidgorny" target="_blank" rel="noopener noreferrer" aria-describedby="booking-note">Book your Calendly call</a>
+            <p class="cta-note" id="booking-note">Opens in a new tab.</p>
+          </div>
         </div>
       </div>
     </section>
