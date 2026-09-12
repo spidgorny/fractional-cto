@@ -65,6 +65,13 @@
       font-weight: 700;
       letter-spacing: 0.04em;
       text-transform: uppercase;
+      text-decoration: none;
+      transition: opacity 0.2s ease;
+    }
+
+    .brand:hover,
+    .brand:active {
+      opacity: 0.82;
     }
 
     .hero-grid {
@@ -144,10 +151,6 @@
       border: 1px solid var(--panel-border);
       background: rgba(15, 23, 42, 0.6);
       color: var(--text);
-    }
-
-    .brand {
-      text-decoration: none;
     }
 
     .hero-stats {
@@ -290,7 +293,7 @@
     <div class="container">
       <div class="nav">
         <a class="brand" href="#top">Fractional CTO</a>
-        <a class="button button-secondary" href="https://calendly.com/spidgorny" target="_blank" rel="noopener noreferrer">Book on Calendly <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+        <a class="button button-secondary" href="#book-call">Book on Calendly</a>
       </div>
 
       <div class="hero-grid">
@@ -306,7 +309,7 @@
             <strong>SkarAudio.com</strong> and multiple high-growth ventures that needed decisive technical leadership.
           </p>
           <div class="cta-row">
-            <a class="button button-primary" href="https://calendly.com/spidgorny" target="_blank" rel="noopener noreferrer">Schedule a strategy call <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
+            <a class="button button-primary" href="#book-call">Schedule a strategy call</a>
             <a class="button button-secondary" href="#services">Explore services</a>
           </div>
         </div>
@@ -366,7 +369,7 @@
       </div>
     </section>
 
-    <section class="section">
+    <section class="section" id="book-call">
       <div class="container">
         <div class="section-header">
           <span class="pill">Experience</span>
